@@ -23,7 +23,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: learndevops01.click
+  - host: devopslabs.shop
     http:
       paths:
       - path: /app1
@@ -55,7 +55,7 @@ spec:
             port:
               number: 80
   # Optional: Add www domain redirect
-  - host: www.learndevops01.click
+  - host: www.devopslabs.shop
     http:
       paths:
       - path: /
